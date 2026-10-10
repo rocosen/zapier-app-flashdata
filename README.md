@@ -2,7 +2,7 @@
 
 FlashData's Zapier integration submits asynchronous data queries and retrieves existing job status and results. It uses each customer's FlashData API key against the production API.
 
-**Status:** Development version 1.0.0. The Zapier integration is private and has not been submitted for public directory review. Public source code does not mean App Directory approval.
+**Status:** Version 1.0.1 is deployed to the private Zapier integration (app 247540). It has not been submitted for public directory review. Public source code does not mean App Directory approval.
 
 ## Operations
 
