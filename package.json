@@ -1,0 +1,17 @@
+{
+  "name": "zapier-app-flashdata",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FlashData integration for Zapier",
+  "main": "index.js",
+  "engines": { "node": "22.x" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "validate": "zapier-platform validate --without-style",
+    "build": "zapier-platform build"
+  },
+  "author": "FlashData <support@flashdata.dev>",
+  "license": "MIT",
+  "dependencies": { "zapier-platform-core": "19.2.0" },
+  "devDependencies": { "nock": "14.0.11", "zapier-platform-cli": "19.2.0" }
+}
