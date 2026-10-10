@@ -7,6 +7,7 @@ const getJobResults = require('./searches/get-job-results');
 module.exports = {
   version: require('./package.json').version,
   platformVersion,
+  flags: { cleanInputData: false },
   authentication: {
     type: 'custom',
     fields: [{
